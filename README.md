@@ -1,6 +1,6 @@
 # Experimental Hello World
 
-This repository contains minimal "Hello, World!" programs implemented in 10 different programming languages.
+This repository contains minimal "Hello, World!" programs implemented in 50 different programming languages.
 
 ## Prerequisites
 - Ensure you have the following toolchains installed:
