@@ -14,6 +14,16 @@ This repository contains minimal "Hello, World!" programs implemented in 10 diff
   - PHP
   - Kotlin
   - Zig
+  - C++
+  - TypeScript
+  - Swift
+  - Haskell
+  - Elixir
+  - Lua
+  - Perl
+  - Bash
+  - R
+  - Dart
 
 ## How to Run
 ### Python
@@ -28,7 +38,7 @@ rustc hello.rs && ./hello
 ```bash
 go run hello.go
 ```
-### JavaScript (Node)
+### JavaScript
 ```bash
 node hello.js
 ```
@@ -54,11 +64,45 @@ kotlinc hello.kt -include-runtime -d hello.jar && java -jar hello.jar
 ```
 ### Zig
 ```bash
-zig build-exe hello.zig -O ReleaseSmall && ./hello
+zig build-exe hello.zig && ./hello
 ```
-
-## Example Output
-For each language, running the program should output:
+### C++
+```bash
+g++ hello.cpp -o hello && ./hello
 ```
-Hello, World!
+### TypeScript
+```bash
+npx ts-node hello.ts
+```
+### Swift
+```bash
+swift hello.swift
+```
+### Haskell
+```bash
+runghc hello.hs
+```
+### Elixir
+```bash
+elixir hello.exs
+```
+### Lua
+```bash
+lua hello.lua
+```
+### Perl
+```bash
+perl hello.pl
+```
+### Bash
+```bash
+bash hello.sh
+```
+### R
+```bash
+Rscript hello.R
+```
+### Dart
+```bash
+dart run hello.dart
 ```
