@@ -1,0 +1,1 @@
+class Hello { static void main() { stdout.printf("Hello, World!\n"); } }
