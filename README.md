@@ -2,6 +2,29 @@
 
 This repository contains minimal "Hello, World!" programs implemented in 50 different programming languages.
 
+## Run Instructions
+
+### Fish shell
+```bash
+fish hello.fish
+```
+
+### Gleam
+```bash
+gleam run hello.gleam
+# or: gleam build && ./build/dev/erlang/hello/beam.snapshot
+```
+
+### Wren
+```bash
+wren hello.wren
+```
+
+### Janet
+```bash
+janet hello.janet
+```
+
 ## Prerequisites
 - Ensure you have the following toolchains installed:
   - Python
