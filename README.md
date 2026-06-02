@@ -1,6 +1,8 @@
 # Experimental Hello World
 
-This repository contains minimal "Hello, World!" programs implemented in 50 different programming languages.
+This repository contains minimal "Hello, World!" programs implemented in 54 different programming languages.
+
+Every program file begins with a comment naming its language, written in that language's own comment syntax (e.g. `# Python`, `// C`, `-- Haskell`, `; Clojure`, `% Erlang`, `(* OCaml *)`).
 
 ## Run Instructions
 
